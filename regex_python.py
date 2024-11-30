@@ -1,7 +1,7 @@
 #created by manu nair
 import re
 
-message_string = "ememnair.  gma il"
+message_string = "ememnair@gmail.com"
 regex_string = "[^a-zA-Z0-9]+"
 regex_pattern = re.compile(regex_string)
 if (re.search(regex_pattern, message_string)):
